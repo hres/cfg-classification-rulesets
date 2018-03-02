@@ -4,9 +4,9 @@ This project provides the directory tree structure to house the CFG classificati
 
 ## Directory Structure for Rulesets
 
-Clone this project in the directory where you want the services to manage the rulesets.  Once cloned, make sure the [RULESETS_HOME] property gets updated to directory path leading to `dtables`.  The clone will allow the deployment to update to the latest changes.
-
-The directory tree must provide read/write permissions to the account running tomcat.  Use the command `chown` to set these.
+1. Clone this project in the directory where you want the services to manage the rulesets. 
+2. Make sure the [RULESETS_HOME] property gets updated to directory path leading to `dtables`. Default setting is RULESETS_HOME=/opt/ruleset/cfg-classification-rulesets/rulesets
+3. Chown proper user/group ownership of the entire directory tree.  Provide read/write permissions to the account running tomcat. 
 
 ## Directory Structure Diagram
 
